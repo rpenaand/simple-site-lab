@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3.2rem;
+  font-family: 'Lato', sans-serif;
+  background: lightblue;
+  color: aliceblue;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: inherit;
+}
+
+.container {
+  margin: auto;
+  max-width: 80rem;
+  padding: 4.8rem;
+  border: 0.4rem solid rgb(38, 199, 38);
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-item {
+  display: inline;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 6px;
+  padding-right: 6px;
+  border-right: 1px solid rgb(75, 75, 75);
+}
+
+.nav-item:last-child,
+.social-nav {
+  color: rgb(38, 199, 38);
+}
+
+.img {
+  float: right;
+  margin-left: 1.6rem;
+}
+
+.logo {
+  width: 22rem;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 3.2rem;
+}
